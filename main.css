@@ -2,10 +2,19 @@
     margin: 1rem;
     padding: 0rem;
     box-sizing: border-box;
-    font-size: 16px; 
+}
+
+h1 {
+    font-family: 'Gravitas One', cursive;
+    font-size: 45px;
 }
 
 .cell {
     height: 2rem;
     width: 2rem;
+}
+
+.btn {
+    font-size: 30px; 
+    font-family: 'Sue Ellen Francisco', cursive;
 }
