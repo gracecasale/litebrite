@@ -12,6 +12,7 @@ h1 {
 .cell {
     height: 2rem;
     width: 2rem;
+    border-width: 3px!important;
 }
 
 .btn {
