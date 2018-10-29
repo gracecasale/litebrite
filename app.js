@@ -15,11 +15,18 @@ cells.forEach(function attachCellListener(cell){
     cell.addEventListener('click', onCellClick); 
 }); 
 
+colorSelector.addEventListener("input", onColorSelect);
+
 
 //functions
 function onCellClick(event){
     const element = event.target;
     element.style.backgroundColor = currentColor;
+}
+
+function onColorSelect(event){
+    const element = event.target;
+    currentColor = (element.value); 
 }
 
 function reset (event) {
