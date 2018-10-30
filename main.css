@@ -15,24 +15,53 @@ h1 {
     border-width: 3px!important;
 }
 
-.btn {
+.nav {
     font-size: 30px; 
     font-family: 'Sue Ellen Francisco', cursive;
+}
+
+.color-selector {
+    height: 3rem;
+    width: 5rem;
+    border-width: 4px;
+    border-color: black;
+}
+
+.reset {
+    height: 3rem;
+    width: 5rem;
+    border-width: 4px;
+    border-color: black;
+    background-color: #00c3ff;
 }
 
 @media only screen 
 and (min-device-width: 375px)
 and (max-device-width: 667px) {
     * {
-        margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-size: 18px; 
+        font-size: 14px; 
         font-family: 'Sue Ellen Francisco', cursive;
     }
 
     .title {
-        font-size: 40px; 
+        font-size: 18px; 
         font-family: 'Gravitas One', cursive;
+    }
+
+    .color-selector {
+        height: 3rem;
+        width: 3rem;
+        border-width: 4px;
+        border-color: black;
+    }
+    
+    .reset {
+        height: 3rem;
+        width: 3rem;
+        border-width: 4px;
+        border-color: black;
+        background-color: #00c3ff;
     }
 }
