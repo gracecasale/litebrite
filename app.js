@@ -5,7 +5,7 @@ const board = document.querySelector('.board');
 const cells = board.querySelectorAll('.cell');
 const colorSelector = document.querySelector('.color-selector');
 const resetBtn = document.querySelector('.reset');
-let currentColor = '#ff0000';
+let currentColor = 'black';
 
  
 //events

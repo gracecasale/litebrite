@@ -39,29 +39,40 @@ h1 {
 and (min-device-width: 375px)
 and (max-device-width: 667px) {
     * {
+        margin: 0.5rem;
         padding: 0;
         box-sizing: border-box;
-        font-size: 14px; 
         font-family: 'Sue Ellen Francisco', cursive;
+        justify-content: center;
+        font-size: 16px;
+        text-align: center;
     }
 
-    .title {
-        font-size: 18px; 
+    h1 {
+        font-size: 36px; 
         font-family: 'Gravitas One', cursive;
     }
 
+    .cell {
+        height: 1rem;
+        width: 1rem;
+        border-width: 2px!important;
+    }
+
     .color-selector {
-        height: 3rem;
-        width: 3rem;
+        height: 2rem;
+        width: 4rem;
         border-width: 4px;
         border-color: black;
     }
     
     .reset {
-        height: 3rem;
-        width: 3rem;
+        height: 2rem;
+        width: 4rem;
         border-width: 4px;
         border-color: black;
         background-color: #00c3ff;
+        font-size: 16px;
+
     }
 }
